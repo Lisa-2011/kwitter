@@ -49,6 +49,6 @@ function addRoom(){
  function logout(){
        localStorage.removeItem("room_name");
        localStorage.removeItem("user_name");
-       window.location = "kwitter.html";
+       window.location = "index.html";
 
  }
